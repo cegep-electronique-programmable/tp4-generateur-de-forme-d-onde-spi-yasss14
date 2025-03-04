@@ -52,6 +52,9 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <conio.h>
+#include "spi.h"
+#include "tmr0.h"
+#include "eusart1.h"
 
 
 
