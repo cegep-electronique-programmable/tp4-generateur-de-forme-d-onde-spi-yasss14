@@ -39,7 +39,7 @@ uint8_t const tri[MAX] ={
 
 void out_dig(uint8_t x);
 void sinus_60(void);
-//void myTimer1_ISR(void);
+void myTimer1_ISR(void);
 
 /*
                          Main application
@@ -72,9 +72,9 @@ void main(void)
 //            {
 //                do
 //                {
-//                    if(EUSART1_is_rx_ready()){
+//                    
 //                        lecture = EUSART1_Read();
-//                    }                    
+//                                       
 //                }
 //                while (((lecture < '0') || (lecture > '9')) && (lecture != 0x0d));
 //                if ((lecture >= '0') && (lecture <= '9')) 
